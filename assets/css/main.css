@@ -2745,7 +2745,7 @@ input, select, textarea {
 					color: rgba(255, 255, 255, 0.5);
 					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 0.85em;
+					font-size: 0.6em;
 					letter-spacing: 0.15em;
 					text-decoration: none;
 					height: 44px;
@@ -2785,6 +2785,7 @@ input, select, textarea {
 
 				#navPanel .depth-0 {
 					color: #fff;
+															font-size: 0.85em;
 				}
 
 			body.navPanel-visible #page-wrapper {
