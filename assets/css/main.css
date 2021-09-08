@@ -2186,7 +2186,8 @@ input, select, textarea {
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 2px rgba(83, 83, 83, 0.15);
+/*			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);*/
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -2202,8 +2203,8 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #c8c8c8;
-					color: rgba(255, 255, 255, 0.75);
+					color: rgba(73, 73, 73, 0.85);
+/*					color: rgba(255, 255, 255, 0.95);*/
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
@@ -2219,11 +2220,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: #ffffff;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: #fff;
+					color: #ffffff;
 				}
 
 	.dropotron {
