@@ -1884,8 +1884,8 @@ input, select, textarea {
 		}
 
 /* Journey bar */
-	@media only screen and (max-width: 1026px) {
-	    .hide-if-small {
+	@media only screen and (max-width: 1024px) {
+	    .hide-small {
 	        display: none;
 	    }
 	}
