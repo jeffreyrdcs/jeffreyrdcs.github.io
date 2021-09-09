@@ -1668,6 +1668,12 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		.image.proj_list1 {
+			display: inline-block;
+			width: 105%;
+			margin: 0 -2em 0em -2em;
+		}
+
 		.image.avatar {
 			border-radius: 100%;
 		}
@@ -1680,6 +1686,36 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+
+/* tag */
+	.tag {
+		display: inline-block;
+		background: #444;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		border-radius: 0.35em;
+		border: 0;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		font-size: 0.9em;
+		min-width: 7.5em;
+		height: 2.25em;
+		line-height: 2.25em;
+	}
+
+		.tag.style1 {
+			background: #f88780 url("images/overlay.png");   /*#f98780  d96760*/
+			color: #fff;
+		}
+
+		.tag.style2 {
+			background: #fde3e1;
+			color: #606167;
+/*			box-shadow: inset 0px 0px 2px 0px #a0a1a7;     /*  #606167   #202127*/*/
+		}
 
 /* Button */
 
