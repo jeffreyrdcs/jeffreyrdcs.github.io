@@ -61,8 +61,8 @@
 					</div>
 
 					<!-- Embeded PDF -->
-					<div class="row aln-center redmargin4">
-						<div id="adobe-dc-view" style="width: 800px; height: 1160px;"></div>
+					<div class="row aln-center">
+						<div id="adobe-dc-view" class="embpdf"></div>
 						<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 						<script type="text/javascript">
 							document.addEventListener("adobe_dc_view_sdk.ready", function(){
@@ -71,7 +71,7 @@
 									content:{location: {url: "https://jeffreyccchan.com/Resume_2021_J_Chan.pdf"}},
 									metaData:{fileName: "Resume_2021_J_Chan.pdf"}
 								// }, {embedMode: "IN_LINE", defaultViewMode: "SINGLE_PAGE"});
-								}, {embedMode: "SIZED_CONTAINER", showPageControls: true, dockPageControls: false});
+								}, {embedMode: "SIZED_CONTAINER", showPageControls: false, dockPageControls: false});
 							});
 						</script>
 					</div>
