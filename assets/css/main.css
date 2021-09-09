@@ -1688,7 +1688,7 @@ input, select, textarea {
 			}
 
 /* tag */
-	.tag {
+	.projtag {
 		display: inline-block;
 		background: #444;
 		text-align: center;
@@ -1706,12 +1706,12 @@ input, select, textarea {
 		line-height: 2.25em;
 	}
 
-		.tag.style1 {
+		.projtag.style1 {
 			background: #f88780 url("images/overlay.png");   /*#f98780  d96760*/
 			color: #fff;
 		}
 
-		.tag.style2 {
+		.projtag.style2 {
 			background: #fde3e1;
 			color: #606167;
 /*			box-shadow: inset 0px 0px 2px 0px #a0a1a7;     /*  #606167   #202127*/*/
